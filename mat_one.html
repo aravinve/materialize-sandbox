@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize SandBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+   <!-- <div class="navbar-fixed"> Only for fixed navbar -->
+  <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Sass</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+          <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Mobile</a></li>
+              </ul>
+        </div>
+        <div class="nav-wrapper grey">
+                <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+                </form>
+        </div>
+      </nav>
+      <div style="height: 100px"></div>
+   <!--</div> Only for fixed navbar--> 
+
+   
+  <!-- <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/1000/1000/nature/1"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/1000/1000/nature/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/1000/1000/nature/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/1000/1000/nature/4"></a>
+        <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/1000/1000/nature/5"></a>
+      </div> -->
+      
+      
+
+<div class="container">
+    <div class="collection">
+        <a href="#" class="collection-item"><span class="badge">4</span>Fruits</a>
+        <a href="#" class="collection-item"><span class="new badge indigo">10</span>Vegetables</a>
+        <a href="#" class="collection-item">Snack</a>
+        <a href="#" class="collection-item"><span class="new badge">6</span>Drinks</a>
+    </div>
+    <span class="new badge red">4</span>
+    <span class="new badge blue">4</span>
+    <div class="btn indigo">Button</div>
+    <div class="btn waves-effect waves-light">Button</div>
+    <div class="btn waves-effect waves-light">Button <i class="material-icons left">cloud</i></div>
+    <br>
+    <br>
+    <a href="#" class="btn-floating btn-large waves-effect waves-light red"> <i class="material-icons">add</i></a>
+    <br>
+    <br>
+    <a href="#" class="waves-effect waves-teal btn-flat">Button</a>
+    <br>
+    <br>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    <div class="waves-effect waves-light btn-large purple">Send <i class="material-icons right">send</i></div>
+    <br>
+    <br>
+    <div class="waves-effect waves-light btn-small blue">Send <i class="material-icons right">send</i></div>
+    <br>
+    <br>
+    <a class="btn disabled">Button</a>
+    <br>
+    <br>
+
+    <nav>
+        <div class="nav-wrapper blue row">
+            <div class="col s12 ">
+                <a href="#" class="breadcrumb">First</a>
+                <a href="#" class="breadcrumb">Second</a>
+                <a href="#" class="breadcrumb">Third</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card purple">
+                <div class="card-content white-text">
+                    <div class="card-title">
+                        Card Title
+                    </div>
+                    <p>This is a simple card.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://images.pexels.com/photos/2893961/pexels-photo-2893961.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+                    <div class="btn-floating halfway-fab waves-effect red"> <i class="material-icons">add</i></div>
+                </div>
+                <div class="card-title col s12 p4 purple-text">Awesome Card</div>
+                <div class="card-content">
+                    This is the awesome card & there is an awesome ballon image on it!!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image waves-effect waves-block">
+            <img class="activator" src="https://images.pexels.com/photos/2893961/pexels-photo-2893961.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Awesome Card
+                <i class="material-icons right">more_vert</i>
+            </span>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Awesome Card
+                <i class="material-icons right">close</i>
+            </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis culpa, vitae ut velit molestiae beatae obcaecati ipsam porro saepe unde expedita quos sapiente facere omnis doloribus. Odio, amet hic!</p>
+        </div>
+    </div>
+
+    
+    <div class="card col s12 sticky-action">
+        <div class="card-image waves-effect waves-block">
+            <img class="activator" src="https://images.pexels.com/photos/2893961/pexels-photo-2893961.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Awesome Card
+                <i class="material-icons right">more_vert</i>
+            </span>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Awesome Card
+                <i class="material-icons right">close</i>
+            </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis culpa, vitae ut velit molestiae beatae obcaecati ipsam porro saepe unde expedita quos sapiente facere omnis doloribus. Odio, amet hic!</p>
+        </div>
+        <div class="card-actions">
+            <a href="#" class="btn red">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="card indigo white-text">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#test4">Test 1</a></li>
+            <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+            <li class="tab"><a href="#test6">Test 3</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey black-text lighten-4">
+          <div id="test4">Test 1</div>
+          <div id="test5">Test 2</div>
+          <div id="test6">Test 3</div>
+        </div>
+      </div>
+    
+    <ul class="collection">
+        <li class="collection-item">Aravind</li>
+        <li class="collection-item">Venkat</li>
+    </ul>
+
+    <ul class="collection">
+        <a href="#" class="collection-item">Aravind</a>
+        <a href="#" class="collection-item active">Venkat</a>
+        <a href="#" class="collection-item">Rocker</a>
+    </ul>
+
+    <ul class="collection with-header">
+        <li class="collection-header"><h4>Names</h4></li>
+        <li class="collection-item">Aravind</li>
+        <li class="collection-item">Venkat</li>
+    </ul>
+
+    <ul class="collection with-header">
+            <li class="collection-header"><h4>Names</h4></li>
+            <li class="collection-item">Aravind <a href="" class="secondary-content"><i class="material-icons secondary-content">mail</i></a></li>
+            <li class="collection-item">Venkat</li>
+    </ul>
+
+    <ul class="collection">
+        <li class="collection-item avatar">
+            <i class="material-icons circle">folder</i>
+            <div class="title">Title</div>
+            <p>First Line <br> Second Line</p>
+            <a href="#" class="secondary-content"> <i class="material-icons">bookmark</i></a>
+        </li>
+        <li class="collection-item avatar">
+                <i class="material-icons circle">folder</i>
+                <div class="title">Title</div>
+                <p>First Line <br> Second Line</p>
+                <a href="#" class="secondary-content"> <i class="material-icons">bookmark</i></a>
+        </li>
+        <li class="collection-item active avatar">
+                <i class="material-icons red circle">folder</i>
+                <div class="title">Title</div>
+                <p>First Line <br> Second Line</p>
+                <a href="#" class="secondary-content"> <i class="material-icons">bookmark</i></a>
+        </li>
+
+    </ul>
+
+    <div class="fixed-action-btn">
+        <div class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </div>
+        <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+    <i class="large material-icons">hd</i>
+    <div class="progress">
+        <div class="determinate" style="width:70%"></div>
+    </div>
+    <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+    <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-red-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+             <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+            </div>
+    </div>
+<br>
+<br>
+    <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                 <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+                </div>
+                <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                        <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+        
+    </div>
+
+    </div>
+</div>
+
+<ul class="pagination">
+    <li class=" waves-effect disabled"><a href="#"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li class="waves-effect"><a href="#">2</a></li>
+    <li class="waves-effect"><a href="#">3</a></li>
+    <li class="waves-effect"><a href="#">4</a></li>
+    <li class="waves-effect"><a href="#">5</a></li>
+    <li class=" waves-effect"><a href="#"><i class="material-icons">chevron_right</i></a></li>
+</ul>
+
+<!-- <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+      </div> -->
+
+      <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+              <h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p>
+            </div>
+          </div>
+
+         
+  <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+
+  <br>
+  <br>
+  <ul class="collapsible expandable"> <!--Add accordion false in js options-->
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+
+  <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+  <br>
+  <br>
+
+  <a href="#" class="dropdown-trigger btn btn-sm" data-target="dropdown1">DropDown</a>
+
+  <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#">Three</a></li>
+  </ul>
+<br>
+<br>
+<button id="feature-dis" class="btn grey btn-sm">Click Me</button>
+  <a id="feature" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+  <div class="tap-target" data-target="feature">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+</div>
+
+<img class="materialboxed"  src="https://images.pexels.com/photos/2893961/pexels-photo-2893961.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+
+
+<div style="height: 500px"></div>
+
+<footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">Footer Content</h5>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy;2019 All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Overall I Assume
+         var instances = M.AutoInit();
+         
+          
+    //          var elems = document.querySelectorAll('.fixed-action-btn');
+    // var instances = M.FloatingActionButton.init(elems, {
+    //     //direction: 'top', // left, right, bottom
+    //     //hoverEnabled: false // opens only on click
+    //     //toolbarEnabled: true // toolbar not working
+    // });
+
+//     var instance = M.Carousel.init({
+//     fullWidth: true,
+//     indicators: true // indicators not working
+//   });
+          
+          });
+
+//           document.getElementById('feature-dis').addEventListener('click', function() {
+//     var elems = document.querySelectorAll('.tap-target');
+//     var instances = M.TapTarget.init(elems, null);
+//   });
+
+
+      </script>
+</body>
+</html>

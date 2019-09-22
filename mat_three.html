@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize SandBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+        <div class="row">
+                <div class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">textsms</i>
+                      <input type="text" id="autocomplete-input" class="autocomplete">
+                      <label for="autocomplete-input">Autocomplete</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+           <div class="container">
+                <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Red</span>
+                        </label>
+                      </p>
+                      <p>
+                            <label>
+                              <input id="indeterminate-checkbox" type="checkbox" />
+                              <span>Indeterminate Style</span>
+                            </label>
+                          </p>
+            <div class="chip">
+                Tag
+                <i class="close material-icons">close</i>
+                </div>
+           </div>
+           <input type="text" class="datepicker">
+           <input type="text" class="timepicker">
+           <p>
+                <label>
+                  <input name="group1" type="radio" checked />
+                  <span>Red</span>
+                </label>
+              </p>
+              <p>
+                    <label>
+                      <input name="group1" type="radio" />
+                      <span>Yellow</span>
+                    </label>
+                  </p>
+            <p class="range-field">
+                <input type="range" id="test5" min="0" max="100" />
+                </p>
+            <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    </select>
+                    <label>Materialize Select</label>
+                </div>
+
+                <div class="switch">
+                        <label>
+                          Off
+                          <input type="checkbox">
+                          <span class="lever"></span>
+                          On
+                        </label>
+                      </div>
+                      <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                          </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>         
+        <script>
+       document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.autocomplete');
+        var instances = M.Autocomplete.init(elems, {
+            data:{
+                "Apple":null,"Google":null
+            }
+        });
+       });
+
+       var elems1 = document.querySelectorAll('.datepicker');
+    var instances1 = M.Datepicker.init(elems1, {});
+
+    var elems2 = document.querySelectorAll('.timepicker');
+    var instances2 = M.Timepicker.init(elems2, {});
+
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, {});
+        </script>
+</body>
+</html>
